@@ -1,25 +1,41 @@
-# CakePHP 3
+# Compiled Lua sources
+luac.out
 
-/vendor/*
-/config/app.php
+# luarocks build files
+*.src.rock
+*.zip
+*.tar.gz
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# Object files
+*.o
+*.os
+*.ko
+*.obj
+*.elf
 
-/logs/*
-!/logs/empty
+# Precompiled Headers
+*.gch
+*.pch
 
-# CakePHP 2
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.def
+*.exp
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
